@@ -279,7 +279,7 @@ main,
   margin-right: 15px;
 }
 .service-card:hover {
-  transform: rotate(360deg) scale(.8, .8);
+  transform: rotate(360deg) scale(0.8, 0.8);
 }
 
 /* Service Section Ends  */
