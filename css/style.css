@@ -128,8 +128,49 @@ main {
   color: #727272;
   margin: 15px 0 20px 0;
 }
-
 /* Features Section Ends */
+/* Experience Section Starts */
+.experience {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  gap: 50px;
+  margin-top: 70px;
+}
+.experience-title {
+  border-left: 3px solid #ff900e;
+  font-weight: 700;
+  font-size: 45px;
+  color: #131313;
+  margin-bottom: 20px;
+  padding-left: 30px;
+}
+.experience-description {
+  font-weight: 400;
+  font-size: 16px;
+  color: #727272;
+  margin-bottom: 40px;
+}
+.experience-card {
+  background: #ffffff;
+  box-shadow: 0px 4px 30px rgba(0, 0, 0, 0.06);
+  border-radius: 8px;
+  padding: 20px;
+  margin-bottom: 15px;
+}
+.experience-img img {
+  width: 450px;
+  height: 770px;
+}
+.relative {
+  position: relative;
+}
+.absolute {
+  position: absolute;
+  bottom: -20px;
+  left: -30px;
+}
+/* Experience Section Ends */
 /* Media Queries */
 /* Mobile Devices */
 @media only screen and (max-width: 688px) {
@@ -160,5 +201,12 @@ main {
   .features-description {
     text-align: center;
     padding: 0 10px;
+  }
+  .experience {
+    flex-direction: column;
+    padding: 20px;
+  }
+  .absolute {
+    margin-left: 20px;
   }
 }
